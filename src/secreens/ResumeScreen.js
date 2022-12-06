@@ -48,7 +48,7 @@ const ResumeScreen = () => {
             p="2"
             rounded="md"
             shadow="md"
-            href="https://drive.google.com/file/d/1TAzHu7cgEVz-4y9KFWUpswE0MHy1dE8_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1I84GJV8EC6P-nMu9PWI-QjYmk53JZgyy/view?usp=sharing"
             color="black"
             _hover={{ textDecor: "none" }}
           >
@@ -75,5 +75,3 @@ const ResumeScreen = () => {
 };
 
 export default ResumeScreen;
-// .react-pdf__Page__textContent textLayer{ 
-// display : none !important;}
