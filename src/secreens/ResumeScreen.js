@@ -48,7 +48,7 @@ const ResumeScreen = () => {
             p="2"
             rounded="md"
             shadow="md"
-            href="https://drive.google.com/file/d/1I84GJV8EC6P-nMu9PWI-QjYmk53JZgyy/view?usp=sharing"
+            href="https://drive.google.com/file/d/1j902clYKB_mRghbItkqryDwdhO7wW6zo/view?usp=sharing"
             color="black"
             _hover={{ textDecor: "none" }}
           >
