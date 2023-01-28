@@ -7,8 +7,6 @@ import "../Style.css"
 import pdf from "../Assets/resume.pdf"
 
 
-
-
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.js`;
 
 
