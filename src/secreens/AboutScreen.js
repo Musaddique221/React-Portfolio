@@ -7,7 +7,11 @@ import {
   DiCss3,
   DiReact,
   DiMongodb,
+  DiWordpress,
+  Diexpress,
 } from "react-icons/di";
+
+import { FaShopify } from "react-icons/fa";
 
 import {
   SiRedux,
@@ -21,14 +25,17 @@ import { AiFillGithub } from "react-icons/ai";
 
 const AboutScreen = () => {
   const skill = [
-    { skill: "JavaScript", ic: DiJavascript1 },
-    { skill: "Node js", ic: DiNodejs },
-    { skill: "React js", ic: DiReact },
-    { skill: "Mongo DB", ic: DiMongodb },
-    { skill: "Redux", ic: SiRedux },
     { skill: "HTML", ic: DiHtml5 },
     { skill: "CSS", ic: DiCss3 },
+    { skill: "JavaScript", ic: DiJavascript1 },
+    { skill: "React js", ic: DiReact },
+    { skill: "Node js", ic: DiNodejs },
+
+    { skill: "Mongo DB", ic: DiMongodb },
+    { skill: "Redux", ic: SiRedux },
     { skill: "Chakra UI", ic: SiChakraui },
+    { skill: "Wordpress", ic: DiWordpress },
+    { skill: "Shopify", ic: FaShopify },
   ];
 
   const tools = [
@@ -197,7 +204,7 @@ const AboutScreen = () => {
                 mt="3"
                 mb="2"
               >
-                 Fitness
+                Fitness
               </ListItem>
             </List>
           </Flex>

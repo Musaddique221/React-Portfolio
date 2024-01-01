@@ -7,10 +7,10 @@ const Type = () => {
       <Text fontSize={{ lg: "5xl", base: "3xl" }}>
         <Typewriter
           options={{
-            strings: [" Javascript Developer", "React Developer"],
+            strings: ["Full Stack Developer", "React Developer", "Shopify Developer", "Wordpress Developer"],
             autoStart: true,
             loop: true,
-            deleteSpeed: 50,
+            deleteSpeed: 70,
           }}
           fontSize="4xl"
         />

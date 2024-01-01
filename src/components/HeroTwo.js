@@ -128,7 +128,7 @@ const HeroTwo = () => {
             <Flex justifyContent="space-evenly" mt="4">
               <Image
                 rounded="full"
-                src="./images/jpeg.jpeg"
+                src="./images/jpeg1.jpeg"
                 objectFit="cover"
                 w={{ lg: "400px", md: "300px", base: "300px" }}
               />

@@ -3,12 +3,10 @@ import { useEffect, useState } from "react";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import "../Style.css"
-import pdf from "../Assets/resume.pdf"
-
+import "../Style.css";
+import pdf from "../Assets/resume.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.js`;
-
 
 const ResumeScreen = () => {
   const [width, setWidth] = useState(1200);
@@ -46,9 +44,10 @@ const ResumeScreen = () => {
             p="2"
             rounded="md"
             shadow="md"
-            href="https://drive.google.com/file/d/1j902clYKB_mRghbItkqryDwdhO7wW6zo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1x3OMDUpwVU72OjbaWpdjtSNRiEkqLfHM/view?usp=sharing"
             color="black"
             _hover={{ textDecor: "none" }}
+            target="_blank"
           >
             &nbsp;Download CV
           </Link>
@@ -56,11 +55,8 @@ const ResumeScreen = () => {
         </Flex>
 
         <Flex display="column">
-          <Document
-            file={pdf}
-            onLoadSuccess={onDocumentLoadSuccess}
-          >
-            <Page pageNumber={pageNumber} scale={width > 786 ? 1.2: 0.6} />
+          <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
+            <Page pageNumber={pageNumber} scale={width > 786 ? 1.2 : 0.6} />
           </Document>
           <p>
             {" "}
