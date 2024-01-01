@@ -8,7 +8,6 @@ import {
   DiReact,
   DiMongodb,
   DiWordpress,
-  Diexpress,
 } from "react-icons/di";
 
 import { FaShopify } from "react-icons/fa";
