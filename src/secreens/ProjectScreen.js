@@ -29,7 +29,7 @@ const ProjectsScreen = () => {
         </Flex>
         <Flex direction="row" justifyContent="center" wrap="wrap">
           <ProjectCard
-            source="https://musaddique-ecommerce-app.netlify.app/"
+            source="https://musaddique-ecommerce-web-app.netlify.app/"
             git="https://github.com/Musaddique221/ecommerce-web"
             src="/"
             desc="This is a Full Stack Javascript web App for ecommerce store"
